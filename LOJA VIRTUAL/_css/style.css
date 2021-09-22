@@ -1,0 +1,31 @@
+:root{
+    --cor_site: #1d1826;
+    --cor_azul_logo: #434dde;
+}
+
+* {
+    font-family: 12px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    
+}
+
+header {
+background: var(--cor_site);
+}header h3{font-family: roboto,sans-serif; color: var(--cor_azul_logo);}
+
+img.logo {
+    width: 100px;
+    height: 100px;
+}
+
+@media screen(min-width: 700) {
+    header h3{
+        
+    }
+}
